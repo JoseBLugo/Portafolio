@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra tu entrada</title>
+    <link rel="stylesheet" type="text/css" href="/integrado/card.js"></link>
+</head>
+<body>
+
+   
+        <style>
+          body {
+            background-image: url("imagenes/hawaii3.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+        </style>
+     
+      
+    <script src="/imagenes/scrip.js"></script>
+    <link rel="stylesheet" type="text/css" href="cardstyles.css"></link>
+    <section>
+        <h1>Comprar Entradas</h1>
+        <form>
+
+
+<label for="cuotas">Cuotas:</label>
+<select id="cuotas" name="cuotas">
+  <option value="1">1 cuota</option>
+  <option value="3">3 cuotas (15% de incremento)</option>
+  <option value="6">6 cuotas (30% de incremento)</option>
+  <option value="12">12 cuotas (45% de incremento)</option>
+</select>
+
+<p>Total a pagar: <span id="total-pagar">$15,000</span></p>
+
+          <div class="form-group">
+            <label for="cantidad">Cantidad de entradas:</label>
+            <input type="number" id="cantidad" name="cantidad" min="1" max="10" value="1">
+          </div>
+          <div class="form-group">
+            <label for="tarjeta">Número de tarjeta:</label>
+            <input type="text" id="tarjeta" name="tarjeta" placeholder="0000 0000 0000 0000">
+          </div>
+          <div class="form-group">
+            <label for="vencimiento">Fecha de vencimiento:</label>
+            <input type="month" id="vencimiento" name="vencimiento">
+          </div>
+          <div class="form-group">
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" placeholder="000">
+          </div>
+          <div class="form-group">
+            <label for="nombre">Nombre del titular:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre y apellido">
+          </div>
+          <div class="form-group">
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" placeholder="correo@ejemplo.com">
+          </div>
+          <button type="submit">Pagar</button>
+          <div class="container">
+            <form>
+              <h2>Compra de Entradas</h2>
+              <div class="form-group">
+                <label for="entradas">Cantidad de Entradas:</label>
+                <input type="number" class="form-control" id="entradas" min="1" value="1">
+              </div>
+              <div class="form-group">
+                <label for="cuotas">Cantidad de Cuotas:</label>
+                <select class="form-control" id="cuotas">
+                  <option value="1">1 Cuota</option>
+                  <option value="3">3 Cuotas</option>
+                  <option value="6">6 Cuotas</option>
+                  <option value="12">12 Cuotas</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="total">Total a Pagar:</label>
+                <input type="text" class="form-control" id="total" readonly>
+              </div>
+              <button type="submit" class="btn btn-primary">Pagar</button>
+            </form>
+          </div>
+        <div>  
+          <a href="/index.html"><button type="button" class="btn1">Home</button></a>
+          </div>
+        </form>
+      </section>
+      
+</body>
+</html>

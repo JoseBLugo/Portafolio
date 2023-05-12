@@ -1,0 +1,64 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+  }
+ 
+  .form-group {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #fff;
+  }
+  
+  label {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  input[type="number"],
+  input[type="text"],
+  input[type="month"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 1.2em;
+    color: #fff;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #1c87c9;
+    color: #fff;
+    border: none;
+    font-size: 1.2em;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #135f8e;
+  }
+  .btn1{
+    background-color: green;
+  }
+
+  
